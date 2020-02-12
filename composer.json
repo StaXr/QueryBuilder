@@ -30,7 +30,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "StaXr\\Tests\\Annotations\\": "tests/StaXr/QueryBuilder"
+            "StaXr\\Tests\\QueryBuilder\\": "tests/StaXr/QueryBuilder"
         }
     },
     "extra": {

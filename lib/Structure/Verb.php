@@ -35,11 +35,8 @@ class Verb extends SplEnum implements VerbInterface
     public const BIN = 'BIN';
     public const BIN_TO_UUID = 'BIN_TO_UUID';
     public const BINA = 'BINA';
-    public const BIT_AND = 'BIT_AND';
     public const BIT_COUNT = 'BIT_COUNT';
     public const BIT_LENGTH = 'BIT_LENGTH';
-    public const BIT_OR = 'BIT_OR';
-    public const BIT_XOR = 'BIT_XOR';
     public const CAN_ACCESS_COLUMN = 'CAN_ACCESS_COLUMN';
     public const CAN_ACCESS_DATABASE = 'CAN_ACCESS_DATABASE';
     public const CAN_ACCESS_TABLE = 'CAN_ACCESS_TABLE';
@@ -64,7 +61,6 @@ class Verb extends SplEnum implements VerbInterface
     public const CONVERT_TZ = 'CONVERT_TZ';
     public const COS = 'COS';
     public const COT = 'COT';
-    public const COUNT = 'COUNT';
     public const CRC32 = 'CRC32';
     public const CREATE_ASYMMETRIC_PRIV_KEY = 'CREATE_ASYMMETRIC_PRIV_KEY';
     public const CREATE_ASYMMETRIC_PUB_KEY = 'CREATE_ASYMMETRIC_PUB_KEY';
@@ -167,7 +163,6 @@ class Verb extends SplEnum implements VerbInterface
     public const JSON_ARRAY = 'JSON_ARRAY';
     public const JSON_ARRAY_APPEND = 'JSON_ARRAY_APPEND';
     public const JSON_ARRAY_INSERT = 'JSON_ARRAY_INSERT';
-    public const JSON_ARRAYAGG = 'JSON_ARRAYAGG';
     public const JSON_CONTAINS = 'JSON_CONTAINS';
     public const JSON_CONTAINS_PATH = 'JSON_CONTAINS_PATH';
     public const JSON_DEPTH = 'JSON_DEPTH';
@@ -178,7 +173,6 @@ class Verb extends SplEnum implements VerbInterface
     public const JSON_MERGE_PATCH = 'JSON_MERGE_PATCH';
     public const JSON_MERGE_PRESERVE = 'JSON_MERGE_PRESERVE';
     public const JSON_OBJECT = 'JSON_OBJECT';
-    public const JSON_OBJECTAGG = 'JSON_OBJECTAGG';
     public const JSON_PRETTY = 'JSON_PRETTY';
     public const JSON_QUOTE = 'JSON_QUOTE';
     public const JSON_REMOVE = 'JSON_REMOVE';
@@ -218,7 +212,6 @@ class Verb extends SplEnum implements VerbInterface
     public const MAKETIME = 'MAKETIME';
     public const MASTER_POS_WAIT = 'MASTER_POS_WAIT';
     public const MAT = 'MAT';
-    public const MAX = 'MAX';
     public const MBRContains = 'MBRContains';
     public const MBRCoveredBy = 'MBRCoveredBy';
     public const MBRCovers = 'MBRCovers';
@@ -231,7 +224,6 @@ class Verb extends SplEnum implements VerbInterface
     public const MD5 = 'MD5';
     public const MICROSECOND = 'MICROSECOND';
     public const MID = 'MID';
-    public const MIN = 'MIN';
     public const MINUTE = 'MINUTE';
     public const MOD = 'MOD';
     public const MONTH = 'MONTH';
@@ -368,10 +360,6 @@ class Verb extends SplEnum implements VerbInterface
     public const ST_Y = 'ST_Y';
     public const STATEMENT_DIGEST = 'STATEMENT_DIGEST';
     public const STATEMENT_DIGEST_TEXT = 'STATEMENT_DIGEST_TEXT';
-    public const STD = 'STD';
-    public const STDDEV = 'STDDEV';
-    public const STDDEV_POP = 'STDDEV_POP';
-    public const STDDEV_SAMP = 'STDDEV_SAMP';
     public const STR_TO_DATE = 'STR_TO_DATE';
     public const STRCMP = 'STRCMP';
     public const SUBDATE = 'SUBDATE';
@@ -379,7 +367,6 @@ class Verb extends SplEnum implements VerbInterface
     public const SUBSTRING = 'SUBSTRING';
     public const SUBSTRING_INDEX = 'SUBSTRING_INDEX';
     public const SUBTIME = 'SUBTIME';
-    public const SUM = 'SUM';
     public const SYSDATE = 'SYSDATE';
     public const SYSTEM_USER = 'SYSTEM_USER';
     public const TAN = 'TAN';
@@ -411,9 +398,6 @@ class Verb extends SplEnum implements VerbInterface
     public const UUID_TO_BIN = 'UUID_TO_BIN';
     public const VALIDATE_PASSWORD_STRENGTH = 'VALIDATE_PASSWORD_STRENGTH';
     public const VALUES = 'VALUES';
-    public const VAR_POP = 'VAR_POP';
-    public const VAR_SAMP = 'VAR_SAMP';
-    public const VARIANCE = 'VARIANCE';
     public const VERSION = 'VERSION';
     public const WAIT_FOR_EXECUTED_GTID_SET = 'WAIT_FOR_EXECUTED_GTID_SET';
     public const WEEK = 'WEEK';

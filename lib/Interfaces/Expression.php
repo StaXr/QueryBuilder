@@ -6,5 +6,6 @@ namespace StaXr\QueryBuilder\Interfaces;
 
 interface Expression
 {
-    public function setVerb(Verb)
+    public function setVerb(Verb $verb): Expression;
+    public function setStatement(Statement $statement);
 }
